@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import Nav from "./Nav";
 import Body from "./Body";
+import Footer from "./Footer";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <>
         <Nav/>
         <Body></Body>
+        <Footer/>
         </>
     )
 }

@@ -126,6 +126,7 @@ img{
   height: 35px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  display: flex;
 }
 
 .text{
@@ -192,7 +193,15 @@ img{
 
 .last_card{
   background-color: #2a2546;
-  height: 600px;
+  height: 1150px;
+}
+
+footer{
+  background-color: #2a2546;
+}
+
+hr{
+  color: #fff;
 }
 
 .card_text{
@@ -209,8 +218,56 @@ img{
   margin-left: 50px;
 }
 
-@media (max-width:600px){
+@media screen and (max-width:600px){
   #firstcard{
-    display: block;
+    display:  inline-block;
   }
+}
+
+.last_card_img{
+  padding-left: 50px;
+}
+
+.col{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.card-img-top{
+  margin-left: 0%;
+  margin-top: 0%;
+  height: 200px;
+  
+}
+
+.card-body{
+  background-color: #fff;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.card-text{
+  color: gray;
+}
+
+.text-body{
+  text-decoration: none;
+  padding-left: 0%;
+
+}
+
+.text-body:hover{
+  color: #fcb900;
+}
+
+.text-footer{
+  color: #fcb900;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-between;
 }
